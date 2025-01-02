@@ -16,6 +16,7 @@ create or alter table vacation_spots (
 , zoo_cnt int
 , korean_restaurant_cnt int
 , testcol varchar
+, testcol2 varchar
   -- STEP 5: INSERT CHANGES HERE
 ) data_retention_time_in_days = {{retention_time}};
 
